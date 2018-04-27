@@ -1,0 +1,95 @@
+#navegador {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #25aff4;
+    width: 100%;
+    height: 60px;
+}
+#navegador ul{
+	list-style-type: none;
+	text-align: center;
+}
+#navegador li{
+   display: inline;
+   margin:15px;
+   color: white;
+   font-weight: bold;
+   font-family: sans-serif;
+}
+#navegador li img {
+   vertical-align: middle;
+}
+#navegador table{
+	vertical-align: middle;
+	text-align: center;
+}
+
+#bicho1{
+	width: 180px;
+	height: 130px;
+	background-image:url(Imagens/bicho1.png);
+}
+#bicho1:hover{
+	width: 180px;
+	height: 130px;
+	background-image:url(Imagens/bicho1uau.png);
+}
+#bicho2{
+	width: 180px;
+	height: 130px;
+	background-image:url(Imagens/bicho2.png);
+}
+#bicho2:hover{
+	width: 180px;
+	height: 130px;
+	background-image:url(Imagens/bicho2uau.png);
+}
+#bicho3{
+	width: 180px;
+	height: 130px;
+	background-image:url(Imagens/bicho3.png);
+}
+#bicho3:hover{
+	width: 180px;
+	height: 130px;
+	background-image:url(Imagens/bicho3uau.png);
+}
+#video{
+	border-width: thin;
+	border-style: solid;
+	border-color: #cccccc;
+	width: 307px;
+	height: 210px;
+	background-image: url(Imagens/video.png);
+}
+th {
+	background-color: #f2f2f2;
+	border:none;
+	text-align: left;
+	text-indent: 0.5cm;
+	border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+td {
+	border:none;
+}
+table {
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+#final{
+    display: block;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+
+}
+#ultima {
+
+    border-top-left-radius:0px;
+    border-top-right-radius:0px;
+}
+
+#ultima td{
+	vertical-align: top;
+}
